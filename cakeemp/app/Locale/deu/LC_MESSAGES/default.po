@@ -1,0 +1,774 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright 2013 Maik Ploigt <maik@ploigt.de>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"POT-Creation-Date: 2014-11-02 19:12+0000\n"
+"PO-Revision-Date: 2014-11-02 14:23-0500\n"
+"Last-Translator: Maik Ploigt <maik@ploigt.de>\n"
+"Language-Team:  <maik@ploigt.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Controller/DocumentsController.php:37;72;100;130;165;193
+#, fuzzy
+msgid "Invalid document"
+msgstr "Ungültiger Benutzer"
+
+#: Controller/DocumentsController.php:52;76;145;169
+#, fuzzy
+msgid "The document has been saved."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/DocumentsController.php:55;79;148;172
+#, fuzzy
+msgid "The document could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/DocumentsController.php:104;197
+#, fuzzy
+msgid "The document has been deleted."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/DocumentsController.php:106;199
+#, fuzzy
+msgid "The document could not be deleted. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/EmployesController.php:37;71;98;128;162;189
+#, fuzzy
+msgid "Invalid employe"
+msgstr "Ungültige E-Mail Adresse."
+
+#: Controller/EmployesController.php:52;75;143;166
+#, fuzzy
+msgid "The employe has been saved."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/EmployesController.php:55;78;146;169
+#, fuzzy
+msgid "The employe could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/EmployesController.php:102;193
+#, fuzzy
+msgid "The employe has been deleted."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/EmployesController.php:104;195
+#, fuzzy
+msgid "The employe could not be deleted. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/PostesController.php:37;71;98;128;162;189
+#, fuzzy
+msgid "Invalid poste"
+msgstr "Ungültiger Benutzer"
+
+#: Controller/PostesController.php:52;75;143;166
+#, fuzzy
+msgid "The poste has been saved."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/PostesController.php:55;78;146;169
+#, fuzzy
+msgid "The poste could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/PostesController.php:102;193
+#, fuzzy
+msgid "The poste has been deleted."
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/PostesController.php:104;195
+#, fuzzy
+msgid "The poste could not be deleted. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/UsersController.php:42 Model/User.php:70
+msgid "Invalid username or password, try again"
+msgstr "Falscher Benutzername oder Passwort, bitte noch einmal versuchen"
+
+#: Controller/UsersController.php:66;102;138
+msgid "Invalid user"
+msgstr "Ungültiger Benutzer"
+
+#: Controller/UsersController.php:81;117
+msgid "The user has been saved"
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/UsersController.php:120
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden, bitte noch einmal probieren."
+
+#: Controller/UsersController.php:145
+msgid "User deleted"
+msgstr "Der Benutzer wurde gelöscht"
+
+#: Controller/UsersController.php:149
+msgid "User was not deleted"
+msgstr "Der Benutzer wurde nicht gelöscht"
+
+#: Controller/UsersController.php:176
+msgid "Invalid action"
+msgstr "Ungültige Aktion"
+
+#: Controller/UsersController.php:219
+msgid "Remember password - "
+msgstr "Passwort merken - "
+
+#: Controller/UsersController.php:239
+msgid "Link invalid"
+msgstr "Ungültiger Link"
+
+#: Plugin/Install/Controller/InstallController.php:46
+msgid "Already Installed"
+msgstr "Bereits installiert"
+
+#: Plugin/Install/Controller/InstallController.php:61
+msgid "Installation: Welcome"
+msgstr "Installation: Willkommen"
+
+#: Plugin/Install/Controller/InstallController.php:75
+msgid "Step 1: Database"
+msgstr "Schritt 1: Datenbank"
+
+#: Plugin/Install/Controller/InstallController.php:87;162
+msgid "File database.php created successfully."
+msgstr "Datei database.php erfolgreich angelegt"
+
+#: Plugin/Install/Controller/InstallController.php:102
+msgid "Step 2: Build database"
+msgstr "Schritt 2: Datenbanktabellen erzeugen"
+
+#: Plugin/Install/Controller/InstallController.php:109
+msgid "Warning: Database \"%s\" is not empty."
+msgstr "Warnung: Datenbank ”%s” ist nicht leer."
+
+#: Plugin/Install/Controller/InstallController.php:115
+msgid "Structure of the database successfully created."
+msgstr "Datenbankstruktur erfolgreich angelegt."
+
+#: Plugin/Install/Controller/InstallController.php:154
+msgid "Step 4: Config"
+msgstr "Schritt 4: Konfiguration"
+
+#: Plugin/Install/Controller/InstallController.php:158
+msgid "File config.php created successfully."
+msgstr "Datei config.php wurde erfolgreich erzeugt"
+
+#: Plugin/Install/Controller/InstallController.php:177
+msgid "Installation successful"
+msgstr "Installation erfolgreich abgeschlossen"
+
+#: Plugin/Install/Controller/InstallController.php:211
+msgid "Could not write database.php file."
+msgstr "Konnte die Datei database.php nicht schreiben."
+
+#: Plugin/Install/Controller/InstallController.php:220
+msgid "Could not connect to database: "
+msgstr "Verbindung zur Datenbank fehlgeschlagen: "
+
+#: Plugin/Install/Controller/InstallController.php:225
+msgid "Could not connect to database."
+msgstr "Verbindung zur Datenbank fehlgeschlagen."
+
+#: Plugin/Install/View/Install/adminuser.ctp:7
+msgid "Step 3: Create Admin User"
+msgstr "Schritt 3: Administrator"
+
+#: Plugin/Install/View/Install/adminuser.ctp:16
+#: Plugin/Install/View/Install/config.ctp:16
+msgid "Save"
+msgstr "Speichern"
+
+#: Plugin/Install/View/Install/config.ctp:3
+msgid "Step 4: Create Config"
+msgstr "Schritt 4: Konfigurationsdatei anlegen"
+
+#: Plugin/Install/View/Install/config.ctp:9
+msgid "Digite as palavras separadas por virgula ex: CakeStrap,CakePhp"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:3
+msgid "Create tables"
+msgstr "Tabellen erzeugen"
+
+#: Plugin/Install/View/Install/data.ctp:8
+#: Plugin/Install/View/Install/finish.ctp:13
+msgid "Build database"
+msgstr "Datenbank erzeugen"
+
+#: Plugin/Install/View/Install/database.ctp:24 View/Documents/add.ctp:11
+#: View/Documents/admin_add.ctp:11 View/Documents/admin_edit.ctp:12
+#: View/Documents/edit.ctp:12 View/Elements/form_users.ctp:20
+#: View/Employes/add.ctp:10 View/Employes/admin_add.ctp:10
+#: View/Employes/admin_edit.ctp:11 View/Employes/edit.ctp:11
+#: View/Postes/add.ctp:10 View/Postes/admin_add.ctp:10
+#: View/Postes/admin_edit.ctp:11 View/Postes/edit.ctp:11
+#: View/Users/_form.ctp:29
+msgid "Submit"
+msgstr "Speichern"
+
+#: Plugin/Install/View/Install/finish.ctp:4
+msgid "The user %s has been created with administrative rights.<br>"
+msgstr "Der Benutzer %s wurde als Administrator angelegt.<br>"
+
+#: Plugin/Install/View/Install/finish.ctp:6
+msgid "Visit their website: %s"
+msgstr "Webseite besuchen: %s"
+
+#: Plugin/Install/View/Install/finish.ctp:11
+msgid "Check for restrictions"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:12
+#, fuzzy
+msgid "Create Database file"
+msgstr "Tabellen erzeugen"
+
+#: Plugin/Install/View/Install/finish.ctp:14
+msgid "Create the initial user system"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:15
+msgid "Create the configuration file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:16
+#, fuzzy
+msgid "Visit their website"
+msgstr "Webseite besuchen: %s"
+
+#: Plugin/Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr "Das tmp Verzeichnis hat keine Schreibrechte."
+
+#: Plugin/Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr "Das tmp Verzeichnis hat KEINE Schreibrechte."
+
+#: Plugin/Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr "Das config Verzeichnis hat keine Schreibrechte."
+
+#: Plugin/Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr "Das config Verzeichnis hat KEINE Schreibrechte."
+
+#: Plugin/Install/View/Install/index.ctp:27
+msgid "PHP version %s %s %s"
+msgstr "PHP Version %s %s %s"
+
+#: Plugin/Install/View/Install/index.ctp:30
+msgid "PHP version %s < %s"
+msgstr "PHP Version %s < %s"
+
+#: Plugin/Install/View/Install/index.ctp:38
+msgid "CakePhp version %s %s %s"
+msgstr "CakePhp Version %s %s %s"
+
+#: Plugin/Install/View/Install/index.ctp:41
+msgid "CakePHP version %s < %s"
+msgstr "CakePhp Version %s < %s"
+
+#: Plugin/Install/View/Install/index.ctp:48
+msgid "Install"
+msgstr "Installation"
+
+#: Plugin/Install/View/Install/index.ctp:50
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+"Installation kann nicht gestartet werden, bevor alle Voraussetzungen erfüllt "
+"sind."
+
+#: Plugin/Install/View/Layouts/default.ctp:6
+msgid "CakeStrap"
+msgstr "CakeStrap"
+
+#: View/Documents/add.ctp:4
+msgid "Add Document"
+msgstr "add dokument"
+
+#: View/Documents/add.ctp:14 View/Documents/admin_add.ctp:14
+#: View/Documents/admin_edit.ctp:15 View/Documents/admin_index.ctp:10;48
+#: View/Documents/admin_view.ctp:27 View/Documents/edit.ctp:15
+#: View/Documents/index.ctp:10;49 View/Documents/view.ctp:27
+#: View/Employes/add.ctp:13 View/Employes/admin_add.ctp:13
+#: View/Employes/admin_edit.ctp:14 View/Employes/admin_index.ctp:8;40
+#: View/Employes/admin_view.ctp:17;38;69 View/Employes/edit.ctp:14
+#: View/Employes/index.ctp:8;40 View/Employes/view.ctp:17;38;69
+#: View/Postes/add.ctp:13 View/Postes/admin_add.ctp:13
+#: View/Postes/admin_edit.ctp:14 View/Postes/admin_index.ctp:8;40
+#: View/Postes/admin_view.ctp:17;34 View/Postes/edit.ctp:14
+#: View/Postes/index.ctp:8;40 View/Postes/view.ctp:17;34
+msgid "Actions"
+msgstr ""
+
+#: View/Documents/add.ctp:17 View/Documents/admin_add.ctp:17
+#: View/Documents/admin_edit.ctp:19 View/Documents/admin_view.ctp:31
+#: View/Documents/edit.ctp:19 View/Documents/view.ctp:31
+#: View/Employes/add.ctp:17 View/Employes/admin_add.ctp:17
+#: View/Employes/admin_edit.ctp:19 View/Employes/admin_index.ctp:43
+#: View/Employes/admin_view.ctp:23 View/Employes/edit.ctp:19
+#: View/Employes/index.ctp:43 View/Employes/view.ctp:23
+msgid "List Documents"
+msgstr "Listen dokuments"
+
+#: View/Documents/add.ctp:18 View/Documents/admin_add.ctp:18
+#: View/Documents/admin_edit.ctp:20 View/Documents/admin_index.ctp:51
+#: View/Documents/admin_view.ctp:33 View/Documents/edit.ctp:20
+#: View/Documents/index.ctp:52 View/Documents/view.ctp:33
+#: View/Employes/add.ctp:16 View/Employes/admin_add.ctp:16
+#: View/Employes/admin_edit.ctp:18 View/Employes/admin_view.ctp:21
+#: View/Employes/edit.ctp:18 View/Employes/view.ctp:21 View/Postes/add.ctp:17
+#: View/Postes/admin_add.ctp:17 View/Postes/admin_edit.ctp:19
+#: View/Postes/admin_index.ctp:43 View/Postes/admin_view.ctp:23
+#: View/Postes/edit.ctp:19 View/Postes/index.ctp:43 View/Postes/view.ctp:23
+msgid "List Employes"
+msgstr "Listen Arbeitgeber"
+
+#: View/Documents/add.ctp:19 View/Documents/admin_add.ctp:19
+#: View/Documents/admin_edit.ctp:21 View/Documents/admin_index.ctp:52
+#: View/Documents/admin_view.ctp:34 View/Documents/edit.ctp:21
+#: View/Documents/index.ctp:53 View/Documents/view.ctp:34
+#: View/Employes/admin_index.ctp:42 View/Employes/admin_view.ctp:22
+#: View/Employes/index.ctp:42 View/Employes/view.ctp:22 View/Postes/add.ctp:18
+#: View/Postes/admin_add.ctp:18 View/Postes/admin_edit.ctp:20
+#: View/Postes/admin_index.ctp:44 View/Postes/admin_view.ctp:24;52
+#: View/Postes/edit.ctp:20 View/Postes/index.ctp:44 View/Postes/view.ctp:24;52
+msgid "New Employe"
+msgstr "neuen Arbeitgeber"
+
+#: View/Documents/add.ctp:20 View/Documents/admin_add.ctp:20
+#: View/Documents/admin_edit.ctp:22 View/Documents/admin_index.ctp:53
+#: View/Documents/admin_view.ctp:35 View/Documents/edit.ctp:22
+#: View/Documents/index.ctp:54 View/Documents/view.ctp:35
+#, fuzzy
+msgid "List Users"
+msgstr "Benutzer"
+
+#: View/Documents/add.ctp:21 View/Documents/admin_add.ctp:21
+#: View/Documents/admin_edit.ctp:23 View/Documents/admin_index.ctp:54
+#: View/Documents/admin_view.ctp:36 View/Documents/edit.ctp:23
+#: View/Documents/index.ctp:55 View/Documents/view.ctp:36
+#, fuzzy
+msgid "New User"
+msgstr "Benutzer hinzufügen"
+
+#: View/Documents/admin_add.ctp:4
+msgid "Admin Add Document"
+msgstr "Administrator add Dokument "
+
+#: View/Documents/admin_edit.ctp:4
+msgid "Admin Edit Document"
+msgstr "Administrator Dokument bearbeiten"
+
+#: View/Documents/admin_edit.ctp:18 View/Documents/admin_index.ctp:27
+#: View/Documents/edit.ctp:18 View/Documents/index.ctp:27
+#: View/Employes/admin_edit.ctp:17 View/Employes/admin_index.ctp:19
+#: View/Employes/admin_view.ctp:49;78 View/Employes/edit.ctp:17
+#: View/Employes/index.ctp:19 View/Employes/view.ctp:49;78
+#: View/Postes/admin_edit.ctp:17 View/Postes/admin_index.ctp:19
+#: View/Postes/admin_view.ctp:43 View/Postes/edit.ctp:17
+#: View/Postes/index.ctp:19 View/Postes/view.ctp:43 View/Users/index.ctp:33;64
+msgid "Delete"
+msgstr "Löschen"
+
+#: View/Documents/admin_edit.ctp:18 View/Documents/admin_index.ctp:27
+#: View/Documents/admin_view.ctp:30 View/Documents/edit.ctp:18
+#: View/Documents/index.ctp:27 View/Documents/view.ctp:30
+#: View/Employes/admin_edit.ctp:17 View/Employes/admin_index.ctp:19
+#: View/Employes/admin_view.ctp:20;49;78 View/Employes/edit.ctp:17
+#: View/Employes/index.ctp:19 View/Employes/view.ctp:20;49;78
+#: View/Postes/admin_edit.ctp:17 View/Postes/admin_index.ctp:19
+#: View/Postes/admin_view.ctp:20;43 View/Postes/edit.ctp:17
+#: View/Postes/index.ctp:19 View/Postes/view.ctp:20;43
+#, fuzzy
+msgid "Are you sure you want to delete # %s?"
+msgstr "Diesen Benutzer wirklich löschen?"
+
+#: View/Documents/admin_index.ctp:2 View/Documents/index.ctp:2
+msgid "Documents"
+msgstr "dokuments"
+
+#: View/Documents/admin_index.ctp:25 View/Documents/index.ctp:25
+#: View/Employes/admin_index.ctp:17 View/Employes/admin_view.ctp:47;76
+#: View/Employes/index.ctp:17 View/Employes/view.ctp:47;76
+#: View/Postes/admin_index.ctp:17 View/Postes/admin_view.ctp:41
+#: View/Postes/index.ctp:17 View/Postes/view.ctp:41 View/Users/index.ctp:30
+msgid "View"
+msgstr "Ansehen"
+
+#: View/Documents/admin_index.ctp:26 View/Documents/index.ctp:26
+#: View/Employes/admin_index.ctp:18 View/Employes/admin_view.ctp:48;77
+#: View/Employes/index.ctp:18 View/Employes/view.ctp:48;77
+#: View/Postes/admin_index.ctp:18 View/Postes/admin_view.ctp:42
+#: View/Postes/index.ctp:18 View/Postes/view.ctp:42 View/Users/index.ctp:31
+msgid "Edit"
+msgstr "Ändern"
+
+#: View/Documents/admin_index.ctp:36 View/Documents/index.ctp:36
+#: View/Employes/admin_index.ctp:28 View/Employes/index.ctp:28
+#: View/Postes/admin_index.ctp:28 View/Postes/index.ctp:28
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Documents/admin_index.ctp:41 View/Documents/index.ctp:41
+#: View/Employes/admin_index.ctp:33 View/Employes/index.ctp:33
+#: View/Postes/admin_index.ctp:33 View/Postes/index.ctp:33
+msgid "previous"
+msgstr "früher"
+
+#: View/Documents/admin_index.ctp:43 View/Documents/index.ctp:44
+#: View/Employes/admin_index.ctp:35 View/Employes/index.ctp:35
+#: View/Postes/admin_index.ctp:35 View/Postes/index.ctp:35
+msgid "next"
+msgstr "nächste"
+
+#: View/Documents/admin_index.ctp:50 View/Documents/admin_view.ctp:32
+#: View/Documents/index.ctp:51 View/Documents/view.ctp:32
+#: View/Employes/add.ctp:18 View/Employes/admin_add.ctp:18
+#: View/Employes/admin_edit.ctp:20 View/Employes/admin_index.ctp:44
+#: View/Employes/admin_view.ctp:24;58 View/Employes/edit.ctp:20
+#: View/Employes/index.ctp:44 View/Employes/view.ctp:24;58
+msgid "New Document"
+msgstr "neu dokument"
+
+#: View/Documents/admin_view.ctp:2 View/Documents/view.ctp:2
+#: View/Elements/nav.ctp:24
+msgid "Document"
+msgstr "dokument"
+
+#: View/Documents/admin_view.ctp:4 View/Documents/view.ctp:4
+#: View/Employes/admin_view.ctp:4;34;67 View/Employes/view.ctp:4;34;67
+#: View/Postes/admin_view.ctp:4;32 View/Postes/view.ctp:4;32
+msgid "Id"
+msgstr "Identifikation"
+
+#: View/Documents/admin_view.ctp:9 View/Documents/view.ctp:9
+#: View/Employes/admin_view.ctp:35 View/Employes/view.ctp:35
+msgid "Titre"
+msgstr "Titel"
+
+#: View/Documents/admin_view.ctp:14 View/Documents/view.ctp:14
+#: View/Elements/nav.ctp:32 View/Employes/admin_view.ctp:2
+#: View/Employes/view.ctp:2
+msgid "Employe"
+msgstr "Arbeitgeber "
+
+#: View/Documents/admin_view.ctp:19 View/Documents/view.ctp:19
+#, fuzzy
+msgid "User"
+msgstr "Benutzer"
+
+#: View/Documents/admin_view.ctp:29 View/Documents/edit.ctp:4
+#: View/Documents/view.ctp:29
+msgid "Edit Document"
+msgstr "bearbeiten dokument"
+
+#: View/Documents/admin_view.ctp:30 View/Documents/view.ctp:30
+msgid "Delete Document"
+msgstr "löschen dokument"
+
+#: View/Elements/form_login.ctp:12 View/Elements/form_users.ctp:8
+#: View/Users/_form.ctp:14
+msgid "Email"
+msgstr "E-Mail"
+
+#: View/Elements/form_login.ctp:13 View/Elements/form_users.ctp:12
+#: View/Users/_form.ctp:18
+msgid "Password"
+msgstr "Passwort"
+
+#: View/Elements/form_login.ctp:15 View/Users/remember_password.ctp:7
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: View/Elements/form_login.ctp:19
+msgid "Remember me"
+msgstr "Benutzername merken"
+
+#: View/Elements/form_login.ctp:22
+msgid "Login"
+msgstr "Anmelden"
+
+#: View/Elements/form_users.ctp:4 View/Users/_form.ctp:10
+#: View/Users/index.ctp:18
+msgid "Username"
+msgstr "Benutzername"
+
+#: View/Elements/form_users.ctp:16 View/Users/_form.ctp:24
+#: View/Users/index.ctp:19
+msgid "Role"
+msgstr "Rolle"
+
+#: View/Elements/form_users.ctp:17 View/Users/_form.ctp:25
+msgid "Admin"
+msgstr "Administrator"
+
+#: View/Elements/form_users.ctp:17 View/Users/_form.ctp:25
+msgid "Author"
+msgstr "Autor"
+
+#: View/Elements/nav.ctp:22
+msgid "Dashboard"
+msgstr "Armaturenbrett"
+
+#: View/Elements/nav.ctp:27;35;43;51
+msgid "List"
+msgstr "listen"
+
+#: View/Elements/nav.ctp:28
+msgid "Add new document"
+msgstr "hinzufügen neu Dokument"
+
+#: View/Elements/nav.ctp:36
+msgid "Add new employe"
+msgstr "hinzufügen neu Arbeitgeber "
+
+#: View/Elements/nav.ctp:40 View/Employes/admin_view.ctp:68
+#: View/Employes/view.ctp:68 View/Postes/admin_view.ctp:2;9
+#: View/Postes/view.ctp:2;9
+msgid "Poste"
+msgstr "stellung"
+
+#: View/Elements/nav.ctp:44
+msgid "Add new poste"
+msgstr "hinzufügen neu stellung"
+
+#: View/Elements/nav.ctp:48 View/Users/index.ctp:2
+msgid "Users"
+msgstr "Benutzer"
+
+#: View/Elements/nav.ctp:52
+#, fuzzy
+msgid "Register new user"
+msgstr "Neues Passwort erstellen"
+
+#: View/Elements/nav.ctp:69
+msgid "Profile"
+msgstr "Profil"
+
+#: View/Elements/nav.ctp:70
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: View/Elements/nav.ctp:72
+msgid "Log out"
+msgstr "ausloggen"
+
+#: View/Emails/html/remember_password.ctp:3
+msgid "Register new password"
+msgstr "Neues Passwort erstellen"
+
+#: View/Employes/add.ctp:4
+msgid "Add Employe"
+msgstr "hinzufügen Arbeitgeber "
+
+#: View/Employes/add.ctp:19 View/Employes/admin_add.ctp:19
+#: View/Employes/admin_edit.ctp:21 View/Employes/admin_index.ctp:45
+#: View/Employes/admin_view.ctp:25 View/Employes/edit.ctp:21
+#: View/Employes/index.ctp:45 View/Employes/view.ctp:25 View/Postes/add.ctp:16
+#: View/Postes/admin_add.ctp:16 View/Postes/admin_edit.ctp:18
+#: View/Postes/admin_view.ctp:21 View/Postes/edit.ctp:18
+#: View/Postes/view.ctp:21
+msgid "List Postes"
+msgstr "Listen stellung"
+
+#: View/Employes/add.ctp:20 View/Employes/admin_add.ctp:20
+#: View/Employes/admin_edit.ctp:22 View/Employes/admin_index.ctp:46
+#: View/Employes/admin_view.ctp:26;87 View/Employes/edit.ctp:22
+#: View/Employes/index.ctp:46 View/Employes/view.ctp:26;87
+#: View/Postes/admin_index.ctp:42 View/Postes/admin_view.ctp:22
+#: View/Postes/index.ctp:42 View/Postes/view.ctp:22
+msgid "New Poste"
+msgstr "neu stellung"
+
+#: View/Employes/admin_add.ctp:4
+msgid "Admin Add Employe"
+msgstr "Verwalter hinzufügen Arbeitgeber "
+
+#: View/Employes/admin_edit.ctp:4
+msgid "Admin Edit Employe"
+msgstr "Verwalter bearbeiten Arbeitgeber "
+
+#: View/Employes/admin_index.ctp:2 View/Employes/index.ctp:2
+msgid "Employes"
+msgstr "Arbeitgeber "
+
+#: View/Employes/admin_view.ctp:9 View/Employes/view.ctp:9
+#: View/Postes/admin_view.ctp:33 View/Postes/view.ctp:33
+msgid "Nom"
+msgstr "namen"
+
+#: View/Employes/admin_view.ctp:19 View/Employes/edit.ctp:4
+#: View/Employes/view.ctp:19
+msgid "Edit Employe"
+msgstr "bearbeiten Arbeitgeber "
+
+#: View/Employes/admin_view.ctp:20 View/Employes/view.ctp:20
+#, fuzzy
+msgid "Delete Employe"
+msgstr "Löschen"
+
+#: View/Employes/admin_view.ctp:30 View/Employes/view.ctp:30
+msgid "Related Documents"
+msgstr "verwandt Dokument"
+
+#: View/Employes/admin_view.ctp:36 View/Employes/view.ctp:36
+msgid "Employe Id"
+msgstr "Arbeitgeber Identifikation"
+
+#: View/Employes/admin_view.ctp:37 View/Employes/view.ctp:37
+#, fuzzy
+msgid "User Id"
+msgstr "Benutzer"
+
+#: View/Employes/admin_view.ctp:63 View/Employes/view.ctp:63
+msgid "Related Postes"
+msgstr "verwandt stellung"
+
+#: View/Postes/add.ctp:4
+#, fuzzy
+msgid "Add Poste"
+msgstr "Benutzer hinzufügen"
+
+#: View/Postes/admin_add.ctp:4
+msgid "Admin Add Poste"
+msgstr "Verwalter hinzufügen stellung"
+
+#: View/Postes/admin_edit.ctp:4
+msgid "Admin Edit Poste"
+msgstr "Verwalter bearbeiten Stellung"
+
+#: View/Postes/admin_index.ctp:2 View/Postes/index.ctp:2
+msgid "Postes"
+msgstr "Stellung"
+
+#: View/Postes/admin_view.ctp:19 View/Postes/edit.ctp:4
+#: View/Postes/view.ctp:19
+msgid "Edit Poste"
+msgstr "bearbeiten stellung"
+
+#: View/Postes/admin_view.ctp:20 View/Postes/view.ctp:20
+#, fuzzy
+msgid "Delete Poste"
+msgstr "Löschen"
+
+#: View/Postes/admin_view.ctp:28 View/Postes/view.ctp:28
+msgid "Related Employes"
+msgstr "Verwandte Mitarbeiter"
+
+#: View/Users/change_password.ctp:3
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: View/Users/change_password.ctp:11
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: View/Users/change_password.ctp:12
+msgid "Confirm new password"
+msgstr "Passwort wiederholen"
+
+#: View/Users/change_password.ctp:13
+#, fuzzy
+msgid "Change my password"
+msgstr "Passwort ändern"
+
+#: View/Users/index.ctp:4 View/Users/register.ctp:2
+msgid "Add User"
+msgstr "Benutzer hinzufügen"
+
+#: View/Users/index.ctp:57
+msgid "Remove user"
+msgstr "Benutzer löschen"
+
+#: View/Users/index.ctp:60
+msgid "Are you sure you want to delete the user "
+msgstr "Diesen Benutzer wirklich löschen?"
+
+#: View/Users/index.ctp:63
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: View/Users/remember_password.ctp:9
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n"
+"\t\ttempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: View/Users/remember_password.ctp:12
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: View/Users/remember_password.ctp:13
+msgid "Email address"
+msgstr "E-Mail-Addresse"
+
+#: View/Users/remember_password.ctp:15
+msgid "Next step"
+msgstr "nächsten Schritt"
+
+#: Model/User.php:validation for field username
+msgid "A username is required."
+msgstr "Bitte einen Benutzernamen eingeben."
+
+#: Model/User.php:validation for field username;validation email
+msgid "This user already exists."
+msgstr "Diesen Benutzer gibt es bereits."
+
+#: Model/User.php:validation for field email
+msgid "Invalid email."
+msgstr "Ungültige E-Mail Adresse."
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr "Bitte ein Passwort eingeben."
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr "Bitte eine gültige Benutzerrolle angeben."
+
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "You are logged in"
+#~ msgstr "Willkommen"
+
+#~ msgid "Error!"
+#~ msgstr "Fehler!"
+
+#~ msgid "Success!"
+#~ msgstr "Erfolgreich!"
+
+#~ msgid "Register"
+#~ msgstr "Neues Konto erstellen"
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "The requested address %s was not found on this server."
+#~ msgstr "Die URL %s wurde nicht gefunden."
+
+#~ msgid "An Internal Error Has Occurred."
+#~ msgstr "Ein interner Serverfehler ist aufgetreten."
+
+#~ msgid "Debug setting does not allow access to this url."
+#~ msgstr "Die Einstellungen erlauben den Zugriff auf diese URL nicht."

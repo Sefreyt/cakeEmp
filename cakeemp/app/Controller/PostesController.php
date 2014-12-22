@@ -13,7 +13,7 @@ class PostesController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator','Session');
+	public $components = array('Paginator','Session','RequestHandler');
 
 /**
  * index method
@@ -46,8 +46,27 @@ class PostesController extends AppController {
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
+//		if ($this->request->is('post')) {
+//			$this->Poste->create();
+//			if ($this->Poste->save($this->request->data)) {
+//				$this->Session->setFlash(__('The poste has been saved.'));
+//				return $this->redirect(array('action' => 'index'));
+//			} else {
+//				$this->Session->setFlash(__('The poste could not be saved. Please, try again.'));
+//			}
+//		}
+//		$employes = $this->Poste->Employe->find('list');
+//		$this->set(compact('employes'));
+//	}
+            if ($this->request->is('post')) {
+                if ($this->request->is('ajax')) {
+        $term = $this->request->query('term');
+        $posteNames = $this->Car->getPosteNames($term);
+        $this->set(compact('posteNames'));
+        $this->set('_serialize', 'posteNames');
+      }
 			$this->Poste->create();
+                         
 			if ($this->Poste->save($this->request->data)) {
 				$this->Session->setFlash(__('The poste has been saved.'));
 				return $this->redirect(array('action' => 'index'));
@@ -57,7 +76,8 @@ class PostesController extends AppController {
 		}
 		$employes = $this->Poste->Employe->find('list');
 		$this->set(compact('employes'));
-	}
+	
+        }
 
 /**
  * edit method

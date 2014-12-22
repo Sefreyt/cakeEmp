@@ -1,9 +1,17 @@
 <div class="postes form">
-<?php echo $this->Form->create('Poste'); ?>
+<?php
+
+ $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array('inline' => false));
+ 
+  $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array('inline' => false));
+  
+   $this->Html->script('View/Postes/index', array('inline' => false));
+ 
+  echo $this->Form->create('Poste'); ?>
 	<fieldset>
 		<legend><?php echo __('Add Poste'); ?></legend>
 	<?php
-		echo $this->Form->input('poste');
+		echo $this->Form->input('postes', array('class' => 'ui-autocomplete', 'id' => 'autocomplete'));
 		echo $this->Form->input('Employe');
 	?>
 	</fieldset>

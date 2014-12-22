@@ -8,12 +8,14 @@ App::uses('AppController', 'Controller');
  */
 class DocumentsController extends AppController {
 
+    public $helpers = array('Js');
+	
 /**
  * Components
  *
  * @var array
- */
-	public $components = array('Paginator', 'Session');
+ */  
+      public $components = array('Paginator','Session');
 
 /**
  * index method
@@ -58,7 +60,12 @@ class DocumentsController extends AppController {
 		$employes = $this->Document->Employe->find('list');
 		$users = $this->Document->User->find('list');
 		$this->set(compact('employes', 'users'));
+                    $categories = $this->Document->Subcategory->Category->find('list');
+        //$subcategories = $this->Document->Subcategory->find('list');
+        $subcategories = array('choisir categorie');
+        $this->set(compact('categories', 'subcategories'));
 	}
+      
 
 /**
  * edit method
@@ -85,6 +92,8 @@ class DocumentsController extends AppController {
 		$employes = $this->Document->Employe->find('list');
 		$users = $this->Document->User->find('list');
 		$this->set(compact('employes', 'users'));
+                $subcategories = $this->Document->Subcategory->find('list');
+        $this->set(compact('subcategories'));
 	}
 
 /**

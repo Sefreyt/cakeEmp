@@ -5,6 +5,8 @@
 	<?php
 		echo $this->Form->input('titre');
 		echo $this->Form->input('employe_id');
+                 echo $this->Form->input('category_id');
+        echo $this->Form->input('subcategory_id');
 		$this->Form->input('user_id');
 	?>
 	</fieldset>
@@ -19,5 +21,24 @@
 		<li><?php echo $this->Html->link(__('New Employe'), array('controller' => 'employes', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+                <li><?php echo $this->Html->link(__('List Subcategories'), array('controller' => 'subcategories', 'action' => 'index')); ?> </li>
+        <li><?php echo $this->Html->link(__('New Subcategory'), array('controller' => 'subcategories', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<?php
+$this->Js->get('#PostCategoryId')->event('click', 
+$this->Js->request(array(
+'controller'=>'subcategories',
+'action'=>'getByCategory'
+), array(
+'update'=>'#PostSubcategoryId',
+'async' => true,
+'method' => 'post',
+'dataExpression'=>true,
+'data'=> $this->Js->serializeForm(array(
+'isForm' => true,
+'inline' => true
+))
+))
+);
+?>

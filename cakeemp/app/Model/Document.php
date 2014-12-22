@@ -30,6 +30,13 @@ class Document extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+		),
+            'Subcategory' => array(
+			'className' => 'Subcategory',
+			'foreignKey' => 'subcategory_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
 		)
 	);
 }

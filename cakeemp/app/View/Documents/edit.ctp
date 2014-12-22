@@ -6,6 +6,7 @@
 		echo $this->Form->input('id');
 		echo $this->Form->input('titre');
 		echo $this->Form->input('employe_id');
+                	echo $this->Form->input('subcategory_id');
 		 $this->Form->input('user_id');
 	?>
 	</fieldset>
@@ -21,5 +22,7 @@
 		<li><?php echo $this->Html->link(__('New Employe'), array('controller' => 'employes', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+                <li><?php echo $this->Html->link(__('List Subcategories'), array('controller' => 'subcategories', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Subcategory'), array('controller' => 'subcategories', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

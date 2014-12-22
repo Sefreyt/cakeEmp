@@ -77,7 +77,17 @@ class UsersController extends AppController {
 				if( AuthComponent::user('id') ) {
 					# Store log
 					CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') registered user (ID: '.$this->User->id.')','users');
-				}
+				}    
+                                $link = array('controller'=>'users','action'=>'activate',$this->User->id.'-'.$this->request->data['User']['password']);
+                                App::uses('CakeEmail','network/Email');
+                                $mail = new CakeEmail('gmail');
+                                $mail->from('sefreyt@gmail.com')
+                                        ->to($this->request->data['User']['email'])
+                                        ->subject('inscription')
+                                        ->emailFormat('html')
+                                        ->template('signup')
+                                        ->viewVars(array('username' => $this->request->data['User']['username'],'link'=>$link))
+                                        ->send();
 				$this->Session->setFlash(__('The user has been saved'), 'flash_success');
 				$this->redirect('/home');
 			} else {
@@ -248,6 +258,19 @@ class UsersController extends AppController {
 
 
 	public function profile(){
+	}
+        
+        public function activate($token){
+            $token = explode('-',$token);
+            $user = $this->User->find('firts',array(
+                'conditions' => array('id' => $token[0], 'active' => 0)));      
+            if(!empty($user)){
+                $this->User->id = $user['User']['id'];
+                $this->User->savefield('active',1);          
+            }else{
+                 $this->redirect('/home');
+            }
+           
 	}
 
 }

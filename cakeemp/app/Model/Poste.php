@@ -54,5 +54,16 @@ class Poste extends AppModel {
 			'finderQuery' => '',
 		)
 	);
-
+        
+        public function getPosteNames ($term = null) {
+      if(!empty($term)) {
+        $postes = $this->find('list', array(
+          'conditions' => array(
+            'name LIKE' => trim($term) . '%'
+          )
+        ));
+        return $postes;
+      }
+      return false;
+    }
 }

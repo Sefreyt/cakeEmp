@@ -4,7 +4,8 @@
 	<thead>
 	<tr>			
 			<th><?php echo $this->Paginator->sort('titre'); ?></th>
-			<th><?php echo $this->Paginator->sort('employe_id'); ?></th>			
+			<th><?php echo $this->Paginator->sort('employe_id'); ?></th>
+                        <th><?php echo $this->Paginator->sort('subcategory_id'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -13,7 +14,9 @@
 	<tr>		
 		<td><?php echo h($document['Document']['titre']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($document['Employe']['nom'], array('controller' => 'employes', 'action' => 'view', $document['Employe']['id'])); ?>
+			
+                <?php echo $this->Html->link($document['Employe']['nom'], array('controller' => 'employes', 'action' => 'view', $document['Employe']['id'])); ?>
+                <td><?php echo $this->Html->link($document['Subcategory']['name'], array('controller' => 'subcategories', 'action' => 'view', $document['Subcategory']['id'])); ?></td>
 		</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $document['Document']['id'])); ?>
@@ -47,6 +50,8 @@
 		<li><?php echo $this->Html->link(__('New Employe'), array('controller' => 'employes', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+                <li><?php echo $this->Html->link(__('List Subcategories'), array('controller' => 'subcategories', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Subcategory'), array('controller' => 'subcategories', 'action' => 'add')); ?> </li>
 	</ul>
    
 </div>

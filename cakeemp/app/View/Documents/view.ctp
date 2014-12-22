@@ -11,7 +11,12 @@
 		<dd>
 			<?php echo $this->Html->link($document['Employe']['nom'], array('controller' => 'employes', 'action' => 'view', $document['Employe']['id'])); ?>
 			&nbsp;
-		</dd>		
+		</dd>	
+                <dt><?php echo __('Subcategory'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($document['Subcategory']['name'], array('controller' => 'subcategories', 'action' => 'view', $document['Subcategory']['id'])); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">
@@ -25,5 +30,7 @@
 		<li><?php echo $this->Html->link(__('New Employe'), array('controller' => 'employes', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+                <li><?php echo $this->Html->link(__('List Subcategories'), array('controller' => 'subcategories', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Subcategory'), array('controller' => 'subcategories', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
